@@ -1,0 +1,98 @@
+/* styling starts here */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    /* border:1px solid red; */
+}
+.Feed-main{
+    width:100%;
+    height:50px;
+    padding:0.8rem;
+    
+    
+   
+}
+.feeds{
+    width:100%;
+    display:flex;
+    height:60px;
+   
+  
+    /* border:1px solid rgb(228, 25, 25); */
+
+}
+.feeds .feed1{
+    width:10%;
+    padding: 0.8rem;
+}
+.feeds .feed2{
+    width:90%;
+    padding: 0.4rem;
+    
+}
+ .feed1 img{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    position:relative;
+    left:8px;
+ }
+ .feed2 input{
+    width:98%; 
+    height:35px;                   
+    padding: 0.6rem;
+    border:1px solid rgb(185, 185, 185);
+    border-radius:25px;
+    font-size:15px;
+    background-color: #f7f7f8;
+ }
+ .icons{
+    width:100%;
+    height:35px;
+    display: flex;
+    justify-content: space-between;
+    /* border:1px solid green */
+ }
+ .icons .icon1{
+   width:35%;
+   display: flex;
+   font-size: 16px;
+ 
+ 
+
+ }
+ .icons .icon2{
+    width:35%;
+    display: flex;
+    font-size: 16px;
+  }
+  .icons .icon3{
+    width:35%;
+    display: flex;
+    font-size: 16px;
+ 
+  }
+  .fa-clipboard-question{
+    font-size: 18px;
+    padding-left: 2rem;
+    color:#868484
+  }
+  .fa-user-pen{
+    font-size: 18px;
+    padding-left: 2rem;
+    color:#868484
+  }
+  .fa-pencil{
+    font-size: 18px;
+    padding-left: 4rem;
+    color:#868484
+  }
+  .icon{
+    padding-top: 0.4rem;;
+    font-size: 15px;
+    color:#868484
+  }
+/* 
+  styling end here */

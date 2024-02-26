@@ -1,0 +1,294 @@
+/* styling starts here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border:1px solid red; */
+}
+.main-container{
+   
+    width:100%;
+    height:8.8vh;
+    position:fixed;
+    z-index: 1;
+    top:0;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+.contain{
+    width:100%;
+    height:70px;
+    padding: 0.5rem;
+    border:1px solid transparent;
+    display: flex;
+}
+.item1{
+    width:15%;
+}
+.item2{
+    width:50%;
+    display:flex;
+    padding: 0.2rem;
+}
+.item3{
+    width:34%;
+    display:flex;
+}
+.logo img{
+    /* width:100px; */
+    height:45px;
+    padding:0.6rem;
+    position:relative;
+    left:80px;
+}
+.content1{
+  width:45%;
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.content2{
+    width:52%;
+    height:80%;
+    display:flex;
+    border:1px solid grey;
+}
+.content2 input{
+    width:100%;
+    height:80%;
+    font-size: 15px;
+    border:none;
+  
+}
+ 
+.content2 .search2{
+    
+    padding: 0.4rem;
+}
+
+
+.fa-magnifying-glass{
+    font-size: 18px;
+    padding: 0.6rem;
+    color:grey;
+    position: relative;
+    left:10px;
+      
+}
+/* .fa-house{
+    color: #b92b27;
+} */
+.fa-house:hover {
+    background-color: rgb(230, 225, 225);
+  }
+  .fa-globe{
+ 
+    color:rgb(65, 64, 64);
+     
+  }
+  .fa-caret-down{
+   color:white;
+  }
+i{
+    font-size: 25px;
+    padding:0.4rem;
+     
+}
+.nav1{
+    width: 30%;
+    padding: 0.2rem;
+}
+.nav2{
+    width:20%;
+    display: flex;
+}
+ .head1{
+width:50px;
+height:35px;
+}
+.head2{
+    width:20px;
+}
+.nav2 .head2{
+    width:35px;
+  }
+.nav2 .head1{
+    padding-top:5px;
+}
+   .nav2 .head1 img{
+         
+        width:30px;
+        height:100%;
+        border-radius:20px;
+    }
+
+/* dropdown menu */
+ 
+ 
+   .dropdown {
+    float: left;
+    overflow: hidden;
+    height:40px;
+    
+  }
+  .nav1 button{
+    width:100%;
+    height:35px;
+    border:1px solid grey;
+    border-radius: 25px;
+    background-color:#ffffff;
+    font-size: 15px;
+    color:rgb(104, 104, 104);
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    /* padding: 14px 16px; */
+    background-color: #b92b27;;
+ 
+    border-radius: 25px;;
+    font-family: inherit;
+    margin: 0;
+ 
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(182, 76, 76);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+  
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+   .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown button{
+    width:180px;
+    height:40px;
+  
+  }
+  .Link{
+    display: flex;
+    flex-direction:row;
+    color:black
+  }
+  .Link:hover{
+    background-color: #d8d8d8;
+  }
+  .Link .s1 i{
+    font-size: 18px;
+    color:black;
+    padding:0.6rem;
+  }
+  .Link .s2{
+    color:black;
+    padding:0.4rem;
+ 
+  }
+  .Linkh{
+    color:grey;
+    padding: 0.4rem;
+    text-decoration: none;
+  }
+  .nav3{
+    width:40%;
+    height:100%;
+    /* border:1px solid black; */
+    margin-left: 1.5rem;
+  }
+   .modals{
+    width:80%;
+    height:70%;
+    font-size:1.1rem;
+    margin-top:0.2rem;
+    background-color: #b92b27;
+    border-radius:25px;
+    text-align: center;
+    color:white;
+  }
+
+  .red{
+    color: #b92b27;
+ 
+  }
+  .blue{
+    color:rgb(120, 120, 122);
+  
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .nav3{
+      display: none;
+    }
+   .content2{
+     width:100%;
+     margin-left:1rem
+   }
+   .logo img{
+    height:45px;
+    padding:-0.5rem;
+   }
+   .contain{
+    width:100%;
+   }
+
+   .logo img{
+    width:110px;
+    height:42px;
+    margin-left:-80px;
+  
+     
+}
+ .item2{
+  width:100%
+ }
+ .item1{
+  width:70%;
+}
+  
+.content2{
+  display:none;
+}
+ 
+.nav1 button{
+  width:100px;
+  height:35px;
+  margin-left:-80px;
+ 
+}
+
+.item3{
+  width:50%;
+  display:flex;
+}
+ 
+
+  }
+
+  /* styling ends here */

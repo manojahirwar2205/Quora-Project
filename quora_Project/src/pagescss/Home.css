@@ -1,0 +1,16 @@
+/* styling starts here */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  .quora{
+    width:100%;
+    height:10vh;
+    display: grid;
+   
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    
+  }
+  /* styling ends here */

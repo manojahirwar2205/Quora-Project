@@ -1,0 +1,81 @@
+/* styling starts here */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border:1px solid green;
+    */
+}
+.SidebarInfo{
+    width:100vw;
+    height:100vh;
+    margin-top:65px;
+    border:1px solid red;
+}
+     
+.sidebarinfo{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+ 
+}
+.xitem1{
+    width:20%;
+    height:100%;
+}
+.xitem2{
+    width:50%;
+    height:100%;
+
+}
+.xitem3{
+    width:30%;
+    height:100%;
+}
+.xitems{
+    width:100%;
+    height:20%;
+    display:flex;
+    border:1px solid rgb(185, 185, 185);
+    background-color: white;
+    margin-top:1rem;
+}
+.xitems1{
+    width:25%;
+    padding: 0.5rem;
+    /* padding-left: 1.8rem; */
+   
+    /* border:1px solid green; */
+}
+.xitems1 img{
+    padding: 0.4rem;
+    width:100%;
+    height:90%;
+    border-radius: 10px;
+}
+.xitems2{
+    width:120%;
+    /* border:1px solid green; */
+}
+.xitems2 h4{
+    padding-top: 1rem;
+    font-size: 30px;
+    font-weight: 700;
+}
+.xitems2 button{
+    padding: 0.2rem;
+    width:30%;
+    border:1px solid rgb(22, 144, 243);
+    border-radius: 25px;
+    background-color: #f1f2f2;
+    font-size: 13px;
+    font-weight:bold;
+    color:rgb(22, 144, 243);
+}
+.fa-notes-medical{
+    font-size: 15px;
+    border:none;
+    color:rgb(22, 144, 243);
+}
+/* styling ends here */

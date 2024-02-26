@@ -1,0 +1,28 @@
+/* styling starts here */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border:1px solid blue; */
+
+}
+.modal-posts input{
+    width:100%;
+    font-size: 1.5rem;
+    border-color: grey;
+}
+/* .modal-wrapper{
+    width:100%;
+    display:flex;
+} */
+/* .modal-wrapper-left{
+    width:50%;
+    padding: 1rem;
+}
+
+.modal-wrapper-right{
+    width:50%;
+    padding: 1rem;
+} */
+
+/* styling ends here */
